@@ -227,7 +227,7 @@ namespace OpenHardwareMonitor.Hardware {
       if (c == 0)
         return a.Index.CompareTo(b.Index);
       else
-        return c;
+        return c;      
     }
 
     private static void ReportHardwareSensorTree(

@@ -19,7 +19,7 @@ namespace OpenHardwareMonitor.Hardware {
     public SensorVisitor(SensorEventHandler handler) {
       if (handler == null)
         throw new ArgumentNullException("handler");
-      this.handler = handler;
+      this.handler = handler;            
     }
 
     public void VisitComputer(IComputer computer) {

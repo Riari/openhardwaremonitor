@@ -300,7 +300,7 @@ namespace OpenHardwareMonitor.Hardware.CPU {
 
     public override void Update() {
       base.Update();
-
+        
       if (temperatureStream == null) {
         if (miscellaneousControlAddress != Ring0.InvalidPciAddress) {
           uint value;
